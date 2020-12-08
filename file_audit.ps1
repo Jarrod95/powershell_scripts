@@ -15,9 +15,6 @@ foreach ($item in $d) {
 	if ($item.Mode -eq "-a----") {
 		$documents.Add($item.FullName)
 	}
-	else {
-	
-}
 }
 
 #Remove files in top folder
